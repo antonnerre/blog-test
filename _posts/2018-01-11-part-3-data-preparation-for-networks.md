@@ -3,7 +3,7 @@ layout: post
 title:  "Part 3"
 date:   2018-01-11
 excerpt: "Data Preparation for Networks "
-image: "/images/part3.png"
+image: "/images/part3.PNG"
 ---
 
 # Part 3: Data Preparation for Networks
