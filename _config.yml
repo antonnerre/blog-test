@@ -4,7 +4,7 @@ bio:                'Wannabe Data Scientist'
 description:        "Nothing else to say"
 locale:             en_US
 baseurl: "/blog-test" # the subpath of your site, e.g. /blog
-url: "https://github.com/antonnerre" # the base hostname & protocol for your site
+url: "https://antonnerre.github.io" # the base hostname & protocol for your site
 
 defaults:
 - scope:
