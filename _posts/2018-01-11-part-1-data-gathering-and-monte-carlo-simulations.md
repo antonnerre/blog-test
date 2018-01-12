@@ -276,7 +276,7 @@ plt.show()
 ```
 
 
-<span class="image fit"><img src="{{ "/images/output_15_0.png" | absolute_url }}" alt="" /></span>
+![1st distribution]({{ "./images/output_15_0.png" | absolute_url }})
 
 Let us thus fit the data to a Gamma distribution.
 
@@ -300,7 +300,7 @@ plt.show()
 ```
 
 
-![1st distribution]({{ "./images/output_19_0.png" | absolute_url }})
+![2st distribution]({{ "./images/output_19_0.png" | absolute_url }})
 
 Let us try to assess the goodness-of-fit of the Gamma distribution to the data, by running a Kolmogorov-Smirnov test. The parameters for the Gamma distribution are obtained by fitting the Gamma distribution to the data, using Maximum Likelihood Estimation. We randomly sample from the column with the number of artists (1000 observations), because there is no point in using the full data for these kind of tests that get way too sensitive when the sample size is too large.
 
