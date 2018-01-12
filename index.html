@@ -28,9 +28,8 @@ sitemap:
 				<!-- Intro -->
 					<div id="intro">
             <h1>{{site.title}}</h1>
-						<h2>The Jekyll Theme Version</h2>
-						<p>Massively is an HTML5 website theme designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>. Jekyll integration by <a href="https://somiibo.com">Somiibo</a></p>
+						<h2>A data science project to dive into music data</h2>
+						<p>This 6-parts serie of notebooks will explore how much insights we can get with just 3 variables: an artist's musical genres, its Spotify popularity and number of Followers.</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -59,27 +58,28 @@ sitemap:
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<h2><a href="#">Massively is a versatile Jekyll theme</a></h2>
-									<p>With only a few edits, you can have a stunningly beautiful website <br />
-                    nearly out of the box. Of course... you can always take it further <br />
-                    and make it something even more amazing!</p>
+									<h2><a href="#">From data queries to predictions</a></h2>
+									<p>We will start from scratch and cover different aspects of a data science project: statistical inference, data visualization and exploration, machine learning, networks, etc.</p>
 								</header>
-								<a href="#" class="image main"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></a>
-                <p>Regardless of your website's function, the homepage is what brings the user in.
-                  If it's anything short of intriguing, captivating, or just plain cool, you're out of luck and you might deter some visitors.</p>
-                <p>Your homepage must clearly describe what your site is about.
-									Having engaging content will in this manner enable you to offer and it will make your customers more inclined to purchase from you. Content is a way to position your organization in the correct place for your clients to discover you.
-								</p>
-								<p>
-									In this manner, content in itself is a standout amongst the best promoting apparatuses in your whole advertising toolbox! Rather than making your content around your promoting technique, it's limitlessly more productive to fabricate your showcasing around your content.
-								 </p>
+								<a href="#" class="image main"><img src="{{ "/images/spectral.png" | absolute_url }}" alt="" /></a>
+                <p>In this serie of 6 notebooks, we will cover how it is possible to collect few different data and try to get insights from them. My love for music naturally led me to gather data from Spotify, using the very convenient ``spotipy`` package. We will cover topics such as data manipulation, exploratory data analysis, statistical inference, networks and predictions with machine learning methods (gradient boosting and neural networks).</p>
+                <p>It is possible to gather very interesting data at the song level, but that might be for another serie. For this one, remember that the only data we will have access to are:
+					<ul style="text-align:left; list-style-position:inside;">
+					  <li>the artists' or bands' names,</li>
+					  <li>the genre(s) they belong to,</li>
+					  <li>their popularity on Spotify,</li>
+					  <li>and their number of followers.</li>
+					</ul>
+				</p>
+				<p>Let us see how far we can go with that!</p>
+
 
 							</article>
 
 						<!-- Posts -->
 							<section class="posts">
-                {% for post in site.posts limit:3 %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
+                {% for post in site.posts limit:100 %}
+                {% assign mod3 = forloop.index | modulo: 100 %}
   								<article>
   									<header>
   										<span class="date">{{ post.date | date_to_string }}</span>
