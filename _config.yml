@@ -3,7 +3,7 @@ title:              how much we can do with few data
 bio:                'Wannabe Data Scientist'
 description:        "Nothing else to say"
 locale:             en_US
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/blog-test" # the subpath of your site, e.g. /blog
 url: "https://github.com/antonnerre" # the base hostname & protocol for your site
 
 defaults:
