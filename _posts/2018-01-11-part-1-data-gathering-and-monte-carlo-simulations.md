@@ -276,7 +276,7 @@ plt.show()
 ```
 
 
-![image1](/images/output_15_0.png){:class="img-responsive" style = "width: 200px"}
+![image1](./images/output_15_0.png){:class="img-responsive" style = "width: 200px"}
 
 
 Let us thus fit the data to a Gamma distribution.
