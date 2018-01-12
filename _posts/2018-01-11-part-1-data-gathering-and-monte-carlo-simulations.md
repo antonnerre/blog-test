@@ -276,11 +276,9 @@ plt.show()
 ```
 
 
-<<<<<<< HEAD
-![](./images/output_15_0.png)
-=======
-![image1](./images/output_15_0.png){:class="img-responsive"}
->>>>>>> f4795b332e853f3d6e1c63d1e17ff0fa74d2c3b0
+![1st distribution]({{ "./images/output_15_0.png" | absolute_url }})
+
+#![image1](./images/output_15_0.png){:class="img-responsive"}
 
 
 Let us thus fit the data to a Gamma distribution.
