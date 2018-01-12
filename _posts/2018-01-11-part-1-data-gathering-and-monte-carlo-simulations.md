@@ -3,7 +3,7 @@ layout: post
 title:  "Part 1"
 date:   2018-01-11
 excerpt: "Data gathering & Monte Carlo Simulations "
-image: "/images/part1.png"
+image: "./images/part1.png"
 ---
 
 # Part 1: Data gathering & Monte Carlo Simulations 
@@ -276,7 +276,11 @@ plt.show()
 ```
 
 
+<<<<<<< HEAD
 ![](./images/output_15_0.png)
+=======
+![image1](./images/output_15_0.png){:class="img-responsive"}
+>>>>>>> f4795b332e853f3d6e1c63d1e17ff0fa74d2c3b0
 
 
 Let us thus fit the data to a Gamma distribution.
@@ -301,7 +305,11 @@ plt.show()
 ```
 
 
+<<<<<<< HEAD
 ![](/images/output_19_0.png)
+=======
+![image1](./images/output_19_0.png){:class="img-responsive"}
+>>>>>>> f4795b332e853f3d6e1c63d1e17ff0fa74d2c3b0
 
 Let us try to assess the goodness-of-fit of the Gamma distribution to the data, by running a Kolmogorov-Smirnov test. The parameters for the Gamma distribution are obtained by fitting the Gamma distribution to the data, using Maximum Likelihood Estimation. We randomly sample from the column with the number of artists (1000 observations), because there is no point in using the full data for these kind of tests that get way too sensitive when the sample size is too large.
 
