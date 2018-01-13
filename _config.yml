@@ -16,13 +16,15 @@ defaults:
     author:
 
 # Jekyll
-permalink:          /blog/:title/
-markdown:           kramdown
-highlighter:        rouge
-mathjax:            true
+permalink:            /blog/:title/
+markdown:             kramdown
+kramdown:
+  input:              GFM
+  syntax_highlighter: rouge
+mathjax:              true
 sass:
-  sass_dir:         _sass
-  style:            compressed
+  sass_dir:           _sass
+  style:               compressed
 
 # Comments
 disqus_shortname:   default
