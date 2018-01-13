@@ -10,7 +10,7 @@ image: "./images/Posts_Images/Part1/part1.png"
 
 As expected, we will first need to call the Spotify API using ``spotipy`` to build our base dataset. Have a look at the modules we will use in this first part of the serie. If you wish to try the code on your machine, don't forget to set you own directory.
 
-```python
+```python?start_inline=1
 # Deletes all variables
 %reset
 
