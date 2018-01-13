@@ -12,8 +12,6 @@ As expected, we will first need to call the Spotify API using ``spotipy`` to bui
 
 
 ```ruby
-{% highlight ruby %}
-
 # Deletes all variables
 %reset
 
@@ -36,7 +34,6 @@ import ssl
 
 # Sets the directory
 os.chdir("C:/Users/antoi/Documents/Spotify_Project")
-{% endhighlight %}
 ```
 
     Once deleted, variables cannot be recovered. Proceed (y/[n])? y
