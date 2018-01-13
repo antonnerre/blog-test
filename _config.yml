@@ -18,7 +18,7 @@ defaults:
 # Jekyll
 permalink:          /blog/:title/
 markdown:           kramdown
-highlighter:        rouge
+syntax_highlighter:        rouge
 kramdown:
   auto_ids:         true
   footnote_nr:      1
