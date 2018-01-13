@@ -6,6 +6,7 @@ date:   2018-01-11
 excerpt: "Machine Learning: Gradient Boosting & Neural Networks "
 image: "/images/Posts_Images/Part6/part6.png"
 ---
+
 <span class="image fit"><img src="{{ "/images/Posts_Images/Part6/part6.png" | absolute_url }}" alt="" /></span>
 
 
