@@ -18,9 +18,7 @@ defaults:
 # Jekyll
 permalink:            /blog/:title/
 markdown:             kramdown
-kramdown:
-  input:              GFM
-  syntax_highlighter: rouge
+highlighter:          rouge
 mathjax:              true
 sass:
   sass_dir:           _sass
