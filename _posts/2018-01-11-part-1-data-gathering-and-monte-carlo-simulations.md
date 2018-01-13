@@ -3,7 +3,7 @@ layout: post
 title:  "Part 1"
 date:   2018-01-11
 excerpt: "Data gathering & Monte Carlo Simulations "
-image: ".images/Posts_Images/Part1/part1.png"
+image: "./images/Posts_Images/Part1/part1.png"
 ---
 
 # Part 1: Data gathering & Monte Carlo Simulations 
