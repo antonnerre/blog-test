@@ -9,6 +9,6 @@ sitemap:
 ---
 ## Me, myself & I
 
-<span class="image left"><img style="width: 50%;" src="{{ "/images/profile_pic.jpg" | absolute_url }}" alt="" /></span>
+<span class="image left"><img src="{{ "/images/profile_pic.jpg" | absolute_url }}" alt="" /></span>
 
 My name is Antoine Tonnerre.
