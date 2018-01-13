@@ -3,7 +3,7 @@ layout: post
 title:  "Part 4"
 date:   2018-01-11
 excerpt: "Visualizing Networks of Genres "
-image: "./images/Posts_Images/Part4/part4.jpg"
+image: "./images/Posts_Images/Part4/part4_resized.jpg"
 ---
 
 # Part 4: Visualizing Networks of Genres
@@ -228,7 +228,7 @@ plt.show()
 ```
 
 
-<span class="image fit"><img src="{{ "/images/Posts_Images/Part4/part4.jpg" | absolute_url }}" alt="" /></span>
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part4/part4_resized.jpg" | absolute_url }}" alt="" /></span>
 
 What can be seen here ? 
 * First of all, this visualization reveals that **the largest genres are "central" (they have the highest degrees, or number of connexions) to the network**: nodes tend to be larger in the middle of the graph, and smaller at the periphery;
