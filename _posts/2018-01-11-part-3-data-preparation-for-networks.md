@@ -6,8 +6,6 @@ excerpt: "Data Preparation for Networks "
 image: "/images/Posts_Images/Part3/part3.PNG"
 ---
 
-# Part 3: Data Preparation for Networks
-
 In this part, we will prepare an adjacency matrix that will be used in the next part with the package ``networkx``.
 
 The first section creates a symmetric matrix whose elements are the number of common artists between the genres in the rows and columns.

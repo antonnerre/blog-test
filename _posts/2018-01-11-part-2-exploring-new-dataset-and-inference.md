@@ -6,8 +6,6 @@ excerpt: "Exploring the New Dataset & Inference "
 image: "/images/Posts_Images/Part2/part2.jpg"
 ---
 
-# Part 2: Exploring the new dataset & Inference
-
 Using the dataset built in Part 2, we will try to reveal patterns in the data that could be interesting. This new dataset is already much more interesting, because we have observations at the artist level, each artist belongs to one or more categories (its genres), and we have two numerical values available: the number of followers and the popularity of the artist. We can already expect that the greater the number of follower, the greater the popularity. 
 
 However, there is no direct link between the two, since the popularity value is built by Spotify as the average popularity of a given artist's songs. Each song's popularity is itself a function of two things: the number of times the song was listened, and how recent these listenings were. We will thus check our first intuition that a greater number of follower tends to imply a greater popularity for the artist. We will, afterwards, reveal a new and interesting pattern by considering the genres to which an artist belongs.

@@ -6,8 +6,6 @@ excerpt: "Visualizing Networks of Genres "
 image: "./images/Posts_Images/Part4/part4_resized.jpg"
 ---
 
-# Part 4: Visualizing Networks of Genres
-
 In this part, we will use the package ``networkx`` to analyze and visualize networks of musical genres, based on the dataset we created in the previous part.
 
 We will reveal that a few genres are very "central" in the full network, and that this network seems to be scale-free, meaning it might follow preferential attachment: there might be a Matthew effect on genres' influences, that is, more and more genre form around the already popular genres, and less and less around the least popular genres.

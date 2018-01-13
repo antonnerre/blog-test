@@ -6,8 +6,6 @@ excerpt: "Visualizing Networks of Artists "
 image: "/images/Posts_Images/Part5/part5.jpg"
 ---
 
-# Part 5: Visualizing Networks of Artists
-
 In the previous part, we visualized genres' networks.
 
 Using bipartite projections, we will create artists' networks based on their appartenance to common genres: we are taking the problem the other way around.
