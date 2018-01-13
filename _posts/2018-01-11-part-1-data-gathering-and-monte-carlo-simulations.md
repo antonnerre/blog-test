@@ -6,6 +6,8 @@ excerpt: "Data gathering & Monte Carlo Simulations "
 image: "./images/Posts_Images/Part1/part1.png"
 ---
 
+![1st distribution]({{ "./images/Posts_Images/Part1/part1-1.png" | absolute_url }})
+
 ## Setting up
 
 As expected, we will first need to call the Spotify API using ``spotipy`` to build our base dataset. Have a look at the modules we will use in this first part of the serie. If you wish to try the code on your machine, don't forget to set you own directory.
