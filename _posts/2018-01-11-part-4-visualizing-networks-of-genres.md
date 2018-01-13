@@ -3,7 +3,7 @@ layout: post
 title:  "Part 4"
 date:   2018-01-11
 excerpt: "Visualizing Networks of Genres "
-image: "/images/Posts_Images/Part4/part4.jpg"
+image: "./images/Posts_Images/Part4/part4.jpg"
 ---
 
 # Part 4: Visualizing Networks of Genres
