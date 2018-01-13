@@ -1,7 +1,7 @@
 # Site
-title:              How much we can do with few data
-bio:                'Test bio'
-description:        "Test decription"
+title:              how much we can do with few data
+bio:                'Wannabe Data Scientist'
+description:        "Nothing else to say"
 locale:             en_US
 baseurl: "/how-much-we-can-do-with-few-data" # the subpath of your site, e.g. /blog
 url: "https://antonnerre.github.io" # the base hostname & protocol for your site
@@ -11,18 +11,24 @@ defaults:
     path: ''
     type: posts
   values:
-    permalink: "/how-much-we-can-do-with-few-data/:title/"
+    permalink: "/blog/:title/"
     layout: post
     author:
 
 # Jekyll
-permalink:            /how-much-we-can-do-with-few-data/:title/
-markdown:             kramdown
-highlighter:          rouge
-mathjax:              true
+permalink:          /blog/:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
 sass:
-  sass_dir:           _sass
-  style:               compressed
+  sass_dir:         _sass
+  style:            compressed
 
 # Comments
 disqus_shortname:   default
@@ -36,9 +42,9 @@ github:             default
 linkedin:           in/antoinetonnerre
 
 # personal
-location:           Bordeaux, France
-phone:              
-email:              antoine.tonnerre@gmail.com
+location:           Los Angeles, CA
+phone:              310-318-5555
+email:              info@default.com
 
 # Gems
 gems:
@@ -49,7 +55,7 @@ gems:
   - jekyll-paginate
 
 paginate: 6
-paginate_path: "/how-much-we-can-do-with-few-data/page:num/"
+paginate_path: "/blog/page:num/"
 
 jekyll-mentions:
     base_url: https://github.com
