@@ -1,5 +1,14 @@
 
-# Part 6: Machine Learning - Gradient Boosting and Neural Networks
+---
+layout: post
+title:  "Part 6"
+date:   2018-01-11
+excerpt: "Machine Learning: Gradient Boosting & Neural Networks "
+image: "/images/Posts_Images/Part6/part6.png"
+---
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part6/part6.png" | absolute_url }}" alt="" /></span>
+
+
 In this part (and the next one), we will try to predict the popularity of an artist based solely on its combination of genres.
 
 We will first transform the data to be suitable for the model.
@@ -871,7 +880,7 @@ plt.show()
 ```
 
 
-![png](output_28_0.png)
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part6/part6-1.png" | absolute_url }}" alt="" /></span>
 
 
 It is possible to have a look at the most important features to determine the popularity of an artist. Since we used principal component analysis, this is not very informative. 
@@ -885,7 +894,7 @@ plt.show()
 ```
 
 
-![png](output_30_0.png)
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part6/part6-2.png" | absolute_url }}" alt="" /></span>
 
 
 It is however possible to inspect the components of the pca and how much they are informed by our original features.
@@ -1140,7 +1149,7 @@ plt.show()
 ```
 
 
-![png](output_42_0.png)
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part6/part6-3.png" | absolute_url }}" alt="" /></span>
 
 
 The regression line between the actual and predicted values has correct coefficients (approximately 0 as intercept and 1 as slope). But there is a lot of noise in the predictions, certainly too much.
@@ -1259,7 +1268,7 @@ mdl1.fit(X_training, y_training, validation_split = 0.33, epochs = 100, batch_si
 ```
 
 
-![png](output_54_0.png)
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part6/part6-4.png" | absolute_url }}" alt="" /></span>
 
 
     94697/94697 [==============================] - 43s - loss: 0.3513 - mean_absolute_error: 0.4502 - val_loss: 0.3508 - val_mean_absolute_error: 0.4489
@@ -1318,7 +1327,7 @@ plt.show()
 ```
 
 
-![png](output_62_0.png)
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part6/part6-5.png" | absolute_url }}" alt="" /></span>
 
 
 **That is much better!** The linear relationship is much clearer. There is still some noise, but the predictions are much more concentrated around the $y = x$ axis. Again, the intercept is close to 0 and the slope to 1.
