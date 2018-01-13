@@ -3,7 +3,7 @@ layout: post
 title:  "Part 3"
 date:   2018-01-11
 excerpt: "Data Preparation for Networks "
-image: "/images/Posts_Images/Part3/part3.PNG"
+image: "/images/Posts_Images/Part3/part3_squared.jpg"
 ---
 <span class="image fit"><img src="{{ "/images/Posts_Images/Part3/part3.PNG" | absolute_url }}" alt="" /></span>
 
