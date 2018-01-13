@@ -5,6 +5,7 @@ date:   2018-01-11
 excerpt: "Visualizing Networks of Artists "
 image: "/images/Posts_Images/Part5/part5.jpg"
 ---
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part5/part5.jpg" | absolute_url }}" alt="" /></span>
 
 In the previous part, we visualized genres' networks.
 

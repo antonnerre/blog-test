@@ -5,6 +5,7 @@ date:   2018-01-11
 excerpt: "Data Preparation for Networks "
 image: "/images/Posts_Images/Part3/part3.PNG"
 ---
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part3/part3.PNG" | absolute_url }}" alt="" /></span>
 
 In this part, we will prepare an adjacency matrix that will be used in the next part with the package ``networkx``.
 

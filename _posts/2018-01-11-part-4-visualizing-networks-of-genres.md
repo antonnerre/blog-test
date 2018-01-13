@@ -5,6 +5,7 @@ date:   2018-01-11
 excerpt: "Visualizing Networks of Genres "
 image: "./images/Posts_Images/Part4/part4_resized.jpg"
 ---
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part4/part4_resized.jpg" | absolute_url }}" alt="" /></span>
 
 In this part, we will use the package ``networkx`` to analyze and visualize networks of musical genres, based on the dataset we created in the previous part.
 
