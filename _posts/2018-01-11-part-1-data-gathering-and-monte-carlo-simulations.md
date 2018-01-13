@@ -310,9 +310,6 @@ parameters = distribution.fit(sample)
 stats.kstest(sample, "gamma", args = parameters)
 ```
 
-
-
-
     KstestResult(statistic=0.035681426325871679, pvalue=0.15302864239908143)
 
 
