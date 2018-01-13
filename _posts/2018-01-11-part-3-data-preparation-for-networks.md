@@ -367,9 +367,6 @@ For instance, below, we can read that 370 artists belong to the 3rd genre (since
 np.sum(arr[arr[:, 2]], axis = 0)
 ```
 
-
-
-
     array([370,  47, 661, ...,   0,   0,   0])
 
 

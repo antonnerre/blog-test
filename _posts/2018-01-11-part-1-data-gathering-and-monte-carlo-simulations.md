@@ -6,8 +6,6 @@ excerpt: "Data gathering & Monte Carlo Simulations "
 image: "./images/Posts_Images/Part1/part1.png"
 ---
 
-# Part 1: Data gathering & Monte Carlo Simulations 
-
 ## Setting up
 
 As expected, we will first need to call the Spotify API using ``spotipy`` to build our base dataset. Have a look at the modules we will use in this first part of the serie. If you wish to try the code on your machine, don't forget to set you own directory.
