@@ -11,7 +11,7 @@ defaults:
     path: ''
     type: posts
   values:
-    permalink: "/blog/:title/"
+    permalink: "/how-much-we-can-do-with-few-data/:title/"
     layout: post
     author:
 
@@ -47,11 +47,9 @@ gems:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - markdown
-  - rouge
 
 paginate: 6
-paginate_path: "/blog/page:num/"
+paginate_path: "/how-much-we-can-do-with-few-data/page:num/"
 
 jekyll-mentions:
     base_url: https://github.com
