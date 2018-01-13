@@ -3,7 +3,7 @@ layout: post
 title:  "Part 4"
 date:   2018-01-11
 excerpt: "Visualizing Networks of Genres "
-image: "/images/part4.png"
+image: "/images/Posts_Images/Part4/part4.jpg"
 ---
 
 # Part 4: Visualizing Networks of Genres
@@ -228,8 +228,7 @@ plt.show()
 ```
 
 
-![image1](/images/part4-1.png){:height="100%" width="100%"}
-
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part4/part4.jpg" | absolute_url }}" alt="" /></span>
 
 What can be seen here ? 
 * First of all, this visualization reveals that **the largest genres are "central" (they have the highest degrees, or number of connexions) to the network**: nodes tend to be larger in the middle of the graph, and smaller at the periphery;
@@ -474,8 +473,7 @@ sns.lmplot("log_Degree", "log_Frequency", data = df, fit_reg = False)
 
 
 
-![image1](/images/part4-2.png)
-
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part4/part4-2.png" | absolute_url }}" alt="" /></span>
 
 As explained earlier, scale-free networks have their degree distribution described by power laws: 
 
@@ -738,7 +736,7 @@ search_full(artist_search = "Jons" , x = (2*40), y = 40, lw = 40, k = 10, lab = 
 ```
 
 
-![image1](/images/part4-3.png){:height="100%" width="100%"}
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part4/part4-3.png" | absolute_url }}" alt="" /></span>
 
 
 Let us now generate the graph for the band "Triptides", which belongs to more genres in our data. 
@@ -755,7 +753,7 @@ search_full(artist_search = "Triptides" , x = (2*60), y = 60, lw = 20, k = 2, la
 ```
 
 
-![image1](/images/part4-4.png){:height="100%" width="100%"}
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part4/part4-4.png" | absolute_url }}" alt="" /></span>
 
 
 One last example for the road. In this one, we can see how the band Yussef Kamaal is combining two particular musical scenes: one revolving around "jazz funk", "afrobeat" and "contemporary jazz", and the other around "indie jazz".
@@ -766,6 +764,6 @@ search_full(artist_search = "Yussef Kamaal" , x = (2*50), y = 50, lw = 20, k = 3
 ```
 
 
-![image1](/images/part4-5.png){:height="100%" width="100%"}
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part4/part4-5.png" | absolute_url }}" alt="" /></span>
 
 We thus have a really easy to use and fast function that produces pleasant graphs which act as visualizations of the musical identity of a given artist, and could easily be customized and implemented in a production context.

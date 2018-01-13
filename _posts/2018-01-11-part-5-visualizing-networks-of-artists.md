@@ -3,7 +3,7 @@ layout: post
 title:  "Part 5"
 date:   2018-01-11
 excerpt: "Visualizing Networks of Artists "
-image: "/images/part5.png"
+image: "/images/Posts_Images/Part5/part5.jpg"
 ---
 
 # Part 5: Visualizing Networks of Artists
@@ -314,7 +314,7 @@ plt.show()
 ```
 
 
-![image1](/images/part5.png){:height="100%" width="100%"}
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part5/part5.jpg" | absolute_url }}" alt="" /></span>
 
 
 The nodes we are interested in are the blue nodes whose degree is greater than 1. To this end, we store in the object ``remove`` the nodes whose degree is less than 2. Then, we can create the weighted projected graph of the graph above. This is usefull because edges will have a greater weight when artists share a greater number of genres. We did not use this technique (which is more straightforward) in the previous part because genres had sizes that made comparison meaningless, so the weights had to be rescaled (maybe we could think of an artist size as her number of songs, in a next serie).
@@ -373,7 +373,7 @@ plt.show()
 ```
 
 
-![image1](/images/part5-2.png){:height="100%" width="100%"}
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part5/part5-2.jpg" | absolute_url }}" alt="" /></span>
 
 
 We use nodes informations computed from this graph (betweenness, clustering and degree) and others that were carried during all of the transformations (name and popularity), and store them in a dataframe.
@@ -585,7 +585,7 @@ pop_graph("808 State")
 ```
 
 
-![image1](/images/part5-3.png){:height="100%" width="100%"}
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part5/part5-3.png" | absolute_url }}" alt="" /></span>
 
 
 
@@ -595,7 +595,7 @@ pop_graph("St Germain")
 ```
 
 
-![image1](/images/part5-4.png){:height="100%" width="100%"}
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part5/part5-4.png" | absolute_url }}" alt="" /></span>
 
 
 
@@ -605,7 +605,7 @@ pop_graph("BadBadNotGood")
 ```
 
 
-![image1](/images/part5-5.png){:height="100%" width="100%"}
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part5/part5-5.png" | absolute_url }}" alt="" /></span>
 
 
 
@@ -615,7 +615,7 @@ pop_graph("Kink")
 ```
 
 
-![image1](/images/part5-6.png){:height="100%" width="100%"}
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part5/part5-6.png" | absolute_url }}" alt="" /></span>
 
 
 
@@ -624,7 +624,7 @@ pop_graph("Mild High Club")
 ```
 
 
-![image1](/images/part5-7.png){:height="100%" width="100%"}
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part5/part5-7.png" | absolute_url }}" alt="" /></span>
 
 
 
@@ -633,7 +633,7 @@ pop_graph("King Krule")
 ```
 
 
-![image1](/images/part5-8.png){:height="100%" width="100%"}
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part5/part5-8.png" | absolute_url }}" alt="" /></span>
 
 
 
@@ -642,7 +642,7 @@ pop_graph("Froth")
 ```
 
 
-![image1](/images/part5-9.png){:height="100%" width="100%"}
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part5/part5-9.png" | absolute_url }}" alt="" /></span>
 
 
 Because these are computationaly intensive, I cannot call the function on hundreds of artists. However, on the few I did, there is already a really interesting pattern: 
@@ -767,7 +767,7 @@ plt.show()
 ```
 
 
-![image1](/images/part5-10.png){:height="100%" width="100%"}
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part5/part5-10.png" | absolute_url }}" alt="" /></span>
 
 
 

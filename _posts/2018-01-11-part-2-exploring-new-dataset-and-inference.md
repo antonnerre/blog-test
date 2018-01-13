@@ -3,7 +3,7 @@ layout: post
 title:  "Part 2"
 date:   2018-01-11
 excerpt: "Exploring the New Dataset & Inference "
-image: "/images/part2_bis.png"
+image: "/images/Posts_Images/Part2/part2.jpg"
 ---
 
 # Part 2: Exploring the new dataset & Inference
@@ -102,7 +102,7 @@ sns.lmplot(x = "log_Followers", y = "Popularity", data = reg_df, size = 9, aspec
 plt.show()
 ```
 
-<span class="image fit"><img src="{{ "/images/output_9_0.png" | absolute_url }}" alt="" /></span>
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part2/part2-1.png" | absolute_url }}" alt="" /></span>
 
 Looking at the plot above, it seems really reasonable to assume that the variables are linked in the following way: 
 
@@ -122,7 +122,7 @@ plt.show()
 ```
 
 
-<span class="image fit"><img src="{{ "/images/output_11_0.png" | absolute_url }}" alt="" /></span>
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part2/part2-2.png" | absolute_url }}" alt="" /></span>
 
 The data is obviously not normally distributed, so we will use Spearman's rank-order correlation coefficient instead. The coefficient is high and the p-value virtually zero, so the relation we defined earlier is clear.
 
@@ -252,7 +252,7 @@ g = g.set_xlabels("")
 ```
 
 
-<span class="image fit"><img src="{{ "/images/output_17_0.png" | absolute_url }}" alt="" /></span>
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part2/part2-3.jpg" | absolute_url }}" alt="" /></span>
 
 There are two clear insights from this:
 * The KDEs all appear to be unimodal and have a similar, normal shape;
@@ -385,7 +385,7 @@ with sns.plotting_context("notebook", font_scale=3.5):
 ```
 
 
-<span class="image fit"><img src="{{ "/images/output_22_0.png" | absolute_url }}" alt="" /></span>
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part2/part2-4.png" | absolute_url }}" alt="" /></span>
 
 Again, two insights appear:
 * As the diversity increases, the variance of popularity for artists strongly decreases;
@@ -414,7 +414,7 @@ g = g.set_ylabels("")
 ```
 
 
-<span class="image fit"><img src="{{ "/images/output_24_0.png" | absolute_url }}" alt="" /></span>
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part2/part2-5.jpg" | absolute_url }}" alt="" /></span>
 
 This probably reveals the most striking and unexpected pattern:
 * As the genre popularity increases, the slope of the regression line increases as well.
@@ -761,7 +761,7 @@ plt.show()
 ```
 
 
-<span class="image fit"><img src="{{ "/images/output_32_0.png" | absolute_url }}" alt="" /></span>
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part2/part2-6.png" | absolute_url }}" alt="" /></span>
 
 Again, since they are not normally distributed, we will use Spearman's coefficient, which shows a significant and strong positive correlation.
 
@@ -934,7 +934,7 @@ else:
     
 
 
-<span class="image fit"><img src="{{ "/images/output_43_1.png" | absolute_url }}" alt="" /></span>
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part2/part2-7.png" | absolute_url }}" alt="" /></span>
 
 ## Checking multicolinearity
 We manually compute the Variance Inflation Factors of our independent variables since non function in any python module seems to exist to do this. The VIFs are computed as $$\frac{1}{1 - R_j^2}$$, where $$R_j^2$$ is the coefficient of determination of the linear regression of the independent variable $$j$$ against all other independent variables. The resulting VIFs show no alarming multicolinearity as they all lie below 7.
@@ -995,7 +995,7 @@ plt.show()
 ```
 
 
-<span class="image fit"><img src="{{ "/images/output_49_0.png" | absolute_url }}" alt="" /></span>
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part2/part2-8.png" | absolute_url }}" alt="" /></span>
 
 Since our model will only be used for inference and not for prediction, we are fine, as OLS estimators remain unbiased and consistent under heteroskedasticity. There is thus no need to use Weighted Least Squares or Robust Least Squares.
 
@@ -1107,7 +1107,7 @@ sns.despine()
 ```
 
 
-<span class="image fit"><img src="{{ "/images/output_53_0.png" | absolute_url }}" alt="" /></span>
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part2/part2-9.png" | absolute_url }}" alt="" /></span>
 
 We can see that on the range of values $$POP$$ can take (i.e. from $$Popularity$$ that belongs to $$[0 , 100]$$), the gradient is always positive, though increasing then decreasing. 
 
@@ -1150,4 +1150,4 @@ for a in axes[:-1]:
 ```
 
 
-<span class="image fit"><img src="{{ "/images/output_57_0.png" | absolute_url }}" alt="" /></span>
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part2/part2-10.png" | absolute_url }}" alt="" /></span>
