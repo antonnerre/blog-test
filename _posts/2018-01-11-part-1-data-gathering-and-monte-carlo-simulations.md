@@ -6,7 +6,7 @@ excerpt: "Data gathering & Monte Carlo Simulations "
 image: "./images/Posts_Images/Part1/part1.png"
 ---
 
-![1st distribution]({{ "./images/Posts_Images/Part1/part1-1.png" | absolute_url }})
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part1/part1.jpg" | absolute_url }}" alt="" /></span>
 
 ## Setting up
 
