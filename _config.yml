@@ -1,7 +1,7 @@
 # Site
-title:              how much we can do with few data
-bio:                'Wannabe Data Scientist'
-description:        "Nothing else to say"
+title:              How much we can do with few data
+bio:                'Test bio'
+description:        "Test decription"
 locale:             en_US
 baseurl: "/how-much-we-can-do-with-few-data" # the subpath of your site, e.g. /blog
 url: "https://antonnerre.github.io" # the base hostname & protocol for your site
@@ -18,12 +18,7 @@ defaults:
 # Jekyll
 permalink:          /blog/:title/
 markdown:           kramdown
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   true
+highlighter:        rouge
 mathjax:            true
 sass:
   sass_dir:         _sass
