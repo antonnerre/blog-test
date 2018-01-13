@@ -2,7 +2,7 @@
 layout: post
 title:  "Part 6"
 date:   2018-01-11
-excerpt: "Visualizing Networks of Artists "
+excerpt: "Machine Learning: Gradient Boosting and Neural Networks "
 image: "/images/Posts_Images/Part6/part6.jpg"
 ---
 <span class="image fit"><img src="{{ "/images/Posts_Images/Part6/part6.png" | absolute_url }}" alt="" /></span>
