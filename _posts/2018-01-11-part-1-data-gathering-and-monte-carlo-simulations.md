@@ -3,10 +3,10 @@ layout: post
 title:  "Part 1"
 date:   2018-01-11
 excerpt: "Data gathering & Monte Carlo Simulations "
-image: "./images/Posts_Images/Part1/part1.png"
+image: "./images/Posts_Images/Part1/part1.jpg"
 ---
 
-<span class="image fit"><img src="{{ "/images/Posts_Images/Part1/part1.png" | absolute_url }}" alt="" /></span>
+<span class="image fit"><img src="{{ "/images/Posts_Images/Part1/part1.jpg" | absolute_url }}" alt="" /></span>
 
 ## Setting up
 
