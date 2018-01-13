@@ -18,9 +18,7 @@ defaults:
 # Jekyll
 permalink:          /blog/:title/
 markdown:           kramdown
-syntax-highlighting:
-  enabled : true
-  css: syntax.css
+highlighter:        rouge
 kramdown:
   auto_ids:         true
   footnote_nr:      1
@@ -44,9 +42,9 @@ github:             default
 linkedin:           in/antoinetonnerre
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+location:           Bordeaux, France
+phone:              
+email:              antoine.tonnerre@gmail.com
 
 # Gems
 plugins:
