@@ -558,80 +558,59 @@ pd.DataFrame(gbm.cv_results_)
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>a cappella</th>
-      <th>abstract</th>
-      <th>abstract beats</th>
-      <th>abstract hip hop</th>
+      <th>mean_fit_time</th>
+      <th>mean_score_time</th>
+      <th>mean_test_score</th>
       <th>...</th>
-      <th>zouglou</th>
-      <th>zouk</th>
-      <th>zouk riddim</th>
-      <th>zydeco</th>
+      <th>std_score_time</th>
+      <th>std_test_score</th>
+      <th>std_train_score</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>0.001142</td>
-      <td>0.000469</td>
-      <td>0.000884</td>
-      <td>0.001151</td>
+      <td>8.083300</td>
+      <td>0.747586</td>
+      <td>-163.714065</td>
       <td>...</td>
-      <td>0.001372</td>
-      <td>0.001545</td>
-      <td>0.001375</td>
-      <td>0.000499</td>
+      <td>0.016654</td>
+      <td>0.849158</td>
+      <td>0.453392</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>0.000250</td>
-      <td>0.000403</td>
-      <td>0.000058</td>
-      <td>0.000341</td>
+      <td>9.831178</td>
+      <td>1.054640</td>
+      <td>-149.801452</td>
       <td>...</td>
-      <td>0.000280</td>
-      <td>0.000314</td>
-      <td>0.000277</td>
-      <td>0.001251</td>
+      <td>0.119893</td>
+      <td>0.944775</td>
+      <td>0.294036</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0.000781</td>
-      <td>0.000686</td>
-      <td>0.000440</td>
-      <td>0.005809</td>
+      <td>8.186154</td>
+      <td>0.836894</td>
+      <td>-153.395284</td>
       <td>...</td>
-      <td>0.001095</td>
-      <td>0.001214</td>
-      <td>0.001083</td>
-      <td>0.001192</td>
+      <td>0.038010</td>
+      <td>0.850057</td>
+      <td>0.439200</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>0.000205</td>
-      <td>0.000559</td>
-      <td>0.000619</td>
-      <td>0.001933</td>
+      <td>10.409225</td>
+      <td>1.118146</td>
+      <td>-140.784921</td>
       <td>...</td>
-      <td>0.000299</td>
-      <td>0.000331</td>
-      <td>0.000300</td>
-      <td>0.001232</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>0.000057</td>
-      <td>0.000077</td>
-      <td>0.000039</td>
-      <td>0.004576</td>
-      <td>...</td>
-      <td>0.000101</td>
-      <td>0.000115</td>
-      <td>0.000101</td>
-      <td>0.000322</td>
+      <td>0.078229</td>
+      <td>1.011538</td>
+      <td>0.280878</td>
     </tr>
   </tbody>
 </table>
+<p>4 rows × 18 columns</p>
 </div>
 
 
@@ -670,20 +649,20 @@ model = lgb.train(params,
 ```
 
     Training until validation scores don't improve for 200 rounds.
-    [100]	training's l1: 10.9251	training's rmse: 13.664	validation's l1: 10.8979	validation's rmse: 13.6235
+    [100]	training's l1: 10.9251	training's rmse: 13.664	  validation's l1: 10.8979	validation's rmse: 13.6235
     [200]	training's l1: 10.7184	training's rmse: 13.3822	validation's l1: 10.6974	validation's rmse: 13.3406
     [300]	training's l1: 10.4327	training's rmse: 13.1272	validation's l1: 10.4087	validation's rmse: 13.0857
-    [400]	training's l1: 10.221	training's rmse: 12.9655	validation's l1: 10.2026	validation's rmse: 12.9406
+    [400]	training's l1: 10.221	  training's rmse: 12.9655	validation's l1: 10.2026	validation's rmse: 12.9406
     [500]	training's l1: 10.1951	training's rmse: 12.8659	validation's l1: 10.1867	validation's rmse: 12.8523
     [600]	training's l1: 10.0871	training's rmse: 12.7932	validation's l1: 10.0761	validation's rmse: 12.7735
     [700]	training's l1: 10.0594	training's rmse: 12.7116	validation's l1: 10.0492	validation's rmse: 12.6988
     [800]	training's l1: 10.0151	training's rmse: 12.6853	validation's l1: 10.0048	validation's rmse: 12.6737
     [900]	training's l1: 9.94153	training's rmse: 12.6476	validation's l1: 9.93703	validation's rmse: 12.6404
-    [1000]	training's l1: 9.8814	training's rmse: 12.6246	validation's l1: 9.88113	validation's rmse: 12.614
+    [1000]	training's l1: 9.8814	  training's rmse: 12.6246	validation's l1: 9.88113	validation's rmse: 12.614
     [1100]	training's l1: 9.86952	training's rmse: 12.5833	validation's l1: 9.87773	validation's rmse: 12.5903
     [1200]	training's l1: 9.85737	training's rmse: 12.5788	validation's l1: 9.87131	validation's rmse: 12.5934
     [1300]	training's l1: 9.83257	training's rmse: 12.5839	validation's l1: 9.84123	validation's rmse: 12.5831
-    [1400]	training's l1: 9.7807	training's rmse: 12.5571	validation's l1: 9.79276	validation's rmse: 12.5618
+    [1400]	training's l1: 9.7807	  training's rmse: 12.5571	validation's l1: 9.79276	validation's rmse: 12.5618
     [1500]	training's l1: 9.84934	training's rmse: 12.5867	validation's l1: 9.87195	validation's rmse: 12.6099
     [1600]	training's l1: 9.87087	training's rmse: 12.5442	validation's l1: 9.89071	validation's rmse: 12.5574
     Early stopping, best iteration is:
@@ -695,7 +674,7 @@ Our validation error follows very closely our training error, which is very good
 
 ```python
 %matplotlib inline
-ax = lgb.plot_metric(evals_result, metric='rmse')
+ax = lgb.plot_metric(evals_result, metric ='rmse')
 plt.show()
 ```
 
@@ -718,7 +697,7 @@ It is however possible to inspect the components of the pca and how much they ar
 
 
 ```python
-pca_df = pd.DataFrame(np.abs(pca.components_),columns=df.columns[:(-1)])
+pca_df = pd.DataFrame(np.abs(pca.components_),columns = df.columns[:(-1)])
 pca_df.head()
 ```
 
@@ -829,7 +808,7 @@ y_pred = model.predict(X_test)
 y_pred = np.round(y_pred, 0)
 ```
 
-We have 5 predictions that go above 100, so we assign them the value of 100, then print the Root Mean Squared Errors and Mean Absolute Errors metrics for further comparison.  
+If we have some predictions that go above 100, we assign them the value of 100, then print the Root Mean Squared Errors and Mean Absolute Errors metrics for further comparison.  
 
 
 ```python
