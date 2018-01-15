@@ -93,7 +93,7 @@ artists_genres.head()
         vertical-align: top;
     }
 </style>
-<table border="1" class="dataframe" style="max-width:300px;">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -163,7 +163,7 @@ ml_df.head()
         vertical-align: top;
     }
 </style>
-<table border="1" class="dataframe" style="max-width:300px;">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -171,19 +171,7 @@ ml_df.head()
       <th>a cappella</th>
       <th>abstract</th>
       <th>abstract beats</th>
-      <th>abstract hip hop</th>
-      <th>abstract idm</th>
-      <th>abstractro</th>
-      <th>accordeon</th>
-      <th>accordion</th>
-      <th>acid house</th>
       <th>...</th>
-      <th>yugoslav rock</th>
-      <th>zapstep</th>
-      <th>zeuhl</th>
-      <th>zillertal</th>
-      <th>zim</th>
-      <th>zolo</th>
       <th>zouglou</th>
       <th>zouk</th>
       <th>zouk riddim</th>
@@ -197,19 +185,7 @@ ml_df.head()
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -221,19 +197,7 @@ ml_df.head()
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -245,19 +209,7 @@ ml_df.head()
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -269,19 +221,7 @@ ml_df.head()
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -293,19 +233,7 @@ ml_df.head()
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -370,7 +298,7 @@ artists_values.head()
         vertical-align: top;
     }
 </style>
-<table border="1" class="dataframe" style="max-width:300px;">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -454,7 +382,7 @@ ml_df.head()
         vertical-align: top;
     }
 </style>
-<table border="1" class="dataframe" style="max-width:300px;">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -462,19 +390,7 @@ ml_df.head()
       <th>abstract</th>
       <th>abstract beats</th>
       <th>abstract hip hop</th>
-      <th>abstract idm</th>
-      <th>abstractro</th>
-      <th>accordeon</th>
-      <th>accordion</th>
-      <th>acid house</th>
-      <th>acid jazz</th>
       <th>...</th>
-      <th>zapstep</th>
-      <th>zeuhl</th>
-      <th>zillertal</th>
-      <th>zim</th>
-      <th>zolo</th>
-      <th>zouglou</th>
       <th>zouk</th>
       <th>zouk riddim</th>
       <th>zydeco</th>
@@ -488,19 +404,7 @@ ml_df.head()
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -512,19 +416,7 @@ ml_df.head()
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -536,19 +428,7 @@ ml_df.head()
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -560,19 +440,7 @@ ml_df.head()
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -584,19 +452,7 @@ ml_df.head()
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -700,117 +556,85 @@ pd.DataFrame(gbm.cv_results_)
         vertical-align: top;
     }
 </style>
-<table border="1" class="dataframe" style="max-width:300px;">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>mean_fit_time</th>
-      <th>mean_score_time</th>
-      <th>mean_test_score</th>
-      <th>mean_train_score</th>
-      <th>param_max_bin</th>
-      <th>param_num_leaves</th>
-      <th>params</th>
-      <th>rank_test_score</th>
-      <th>split0_test_score</th>
-      <th>split0_train_score</th>
-      <th>split1_test_score</th>
-      <th>split1_train_score</th>
-      <th>split2_test_score</th>
-      <th>split2_train_score</th>
-      <th>std_fit_time</th>
-      <th>std_score_time</th>
-      <th>std_test_score</th>
-      <th>std_train_score</th>
+      <th>a cappella</th>
+      <th>abstract</th>
+      <th>abstract beats</th>
+      <th>abstract hip hop</th>
+      <th>...</th>
+      <th>zouglou</th>
+      <th>zouk</th>
+      <th>zouk riddim</th>
+      <th>zydeco</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>10.116199</td>
-      <td>0.970915</td>
-      <td>-163.250002</td>
-      <td>-162.426220</td>
-      <td>5</td>
-      <td>5</td>
-      <td>{'max_bin': 5, 'num_leaves': 5}</td>
-      <td>4</td>
-      <td>-166.621770</td>
-      <td>-160.961229</td>
-      <td>-162.273129</td>
-      <td>-162.952440</td>
-      <td>-160.855109</td>
-      <td>-163.364991</td>
-      <td>0.210013</td>
-      <td>0.021049</td>
-      <td>2.453475</td>
-      <td>1.049507</td>
+      <td>0.001142</td>
+      <td>0.000469</td>
+      <td>0.000884</td>
+      <td>0.001151</td>
+      <td>...</td>
+      <td>0.001372</td>
+      <td>0.001545</td>
+      <td>0.001375</td>
+      <td>0.000499</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>17.296488</td>
-      <td>1.572180</td>
-      <td>-149.249242</td>
-      <td>-147.635619</td>
-      <td>5</td>
-      <td>10</td>
-      <td>{'max_bin': 5, 'num_leaves': 10}</td>
-      <td>2</td>
-      <td>-152.289626</td>
-      <td>-146.442512</td>
-      <td>-148.149197</td>
-      <td>-147.818487</td>
-      <td>-147.308904</td>
-      <td>-148.645859</td>
-      <td>3.633506</td>
-      <td>0.038878</td>
-      <td>2.177073</td>
-      <td>0.908759</td>
+      <td>0.000250</td>
+      <td>0.000403</td>
+      <td>0.000058</td>
+      <td>0.000341</td>
+      <td>...</td>
+      <td>0.000280</td>
+      <td>0.000314</td>
+      <td>0.000277</td>
+      <td>0.001251</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>12.008762</td>
-      <td>1.106442</td>
-      <td>-153.130595</td>
-      <td>-152.261962</td>
-      <td>10</td>
-      <td>5</td>
-      <td>{'max_bin': 10, 'num_leaves': 5}</td>
-      <td>3</td>
-      <td>-156.334145</td>
-      <td>-150.741626</td>
-      <td>-152.175213</td>
-      <td>-152.686023</td>
-      <td>-150.882428</td>
-      <td>-153.358239</td>
-      <td>1.566166</td>
-      <td>0.153439</td>
-      <td>2.325922</td>
-      <td>1.109515</td>
+      <td>0.000781</td>
+      <td>0.000686</td>
+      <td>0.000440</td>
+      <td>0.005809</td>
+      <td>...</td>
+      <td>0.001095</td>
+      <td>0.001214</td>
+      <td>0.001083</td>
+      <td>0.001192</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>16.334712</td>
-      <td>1.447516</td>
-      <td>-140.267126</td>
-      <td>-138.547819</td>
-      <td>10</td>
-      <td>10</td>
-      <td>{'max_bin': 10, 'num_leaves': 10}</td>
-      <td>1</td>
-      <td>-143.078187</td>
-      <td>-137.415968</td>
-      <td>-139.557087</td>
-      <td>-138.857918</td>
-      <td>-138.166102</td>
-      <td>-139.369572</td>
-      <td>2.030378</td>
-      <td>0.119942</td>
-      <td>2.067246</td>
-      <td>0.827149</td>
+      <td>0.000205</td>
+      <td>0.000559</td>
+      <td>0.000619</td>
+      <td>0.001933</td>
+      <td>...</td>
+      <td>0.000299</td>
+      <td>0.000331</td>
+      <td>0.000300</td>
+      <td>0.001232</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.000057</td>
+      <td>0.000077</td>
+      <td>0.000039</td>
+      <td>0.004576</td>
+      <td>...</td>
+      <td>0.000101</td>
+      <td>0.000115</td>
+      <td>0.000101</td>
+      <td>0.000322</td>
     </tr>
   </tbody>
 </table>
+<p>5 rows × 1520 columns</p>
 </div>
 
 
