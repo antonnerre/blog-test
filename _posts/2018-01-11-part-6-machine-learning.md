@@ -700,7 +700,7 @@ plt.show()
 ```
 
 
-![]({{ "/images/Posts_Images/Part6/part6-1.png" | absolute_url }})
+![metric]({{ "./images/Posts_Images/Part6/part6-1.png" | absolute_url }})
 
 It is possible to have a look at the most important features to determine the popularity of an artist. Since we used principal component analysis, this is not very informative. 
 
@@ -712,9 +712,7 @@ lgb.plot_importance(model, max_num_features=10)
 plt.show()
 ```
 
-
-<span class="image fit"><img src="{{ "/images/Posts_Images/Part6/part6-2.png" | absolute_url }}" alt="" /></span>
-
+![component]({{ "./images/Posts_Images/Part6/part6-2.png" | absolute_url }})
 
 It is however possible to inspect the components of the pca and how much they are informed by our original features.
 
