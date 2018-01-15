@@ -699,7 +699,8 @@ ax = lgb.plot_metric(evals_result, metric='rmse')
 plt.show()
 ```
 
-<img src="/images/Posts_Images/Part6/part6-1.png" alt="">
+
+![]({{ "/images/Posts_Images/Part6/part6-1.png" | absolute_url }})
 
 It is possible to have a look at the most important features to determine the popularity of an artist. Since we used principal component analysis, this is not very informative. 
 
