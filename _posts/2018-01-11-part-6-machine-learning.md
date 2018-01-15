@@ -93,7 +93,7 @@ artists_genres.head()
         vertical-align: top;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="max-width:300px;">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -163,7 +163,7 @@ ml_df.head()
         vertical-align: top;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="max-width:300px;">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -370,7 +370,7 @@ artists_values.head()
         vertical-align: top;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="max-width:300px;">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -454,7 +454,7 @@ ml_df.head()
         vertical-align: top;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="max-width:300px;">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -616,7 +616,7 @@ We can save the dataset.
 ml_df.to_csv("Deep_Learning_Spotify_bis.csv")
 ```
 
-# Section 1: Building the model with ``lightgbm``
+# Section 1: Building the model with lightgbm
 We are now ready to separate our data between training, evaluation and test sets. We first import the dataset we saved above, and shuffle the data to make sure no pattern exists in each set.
 
 
@@ -700,7 +700,7 @@ pd.DataFrame(gbm.cv_results_)
         vertical-align: top;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="max-width:300px;">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -921,7 +921,7 @@ pca_df.head()
         vertical-align: top;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="max-width:300px;">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -1102,7 +1102,7 @@ print("The mae of prediction is:", np.round(np.abs(y_test - y_pred).mean(), 2))
     
 
 ## Is it better than random ? 
-First we can compare our predictions with purely random draws from the interval $[0, 100]$. We can see that, on average, there is an absolute error of around 40 between the "prediction" and the actual value.
+First we can compare our predictions with purely random draws from the interval $$[0, 100]$$. We can see that, on average, there is an absolute error of around 40 between the "prediction" and the actual value.
 
 
 ```python
@@ -1161,7 +1161,7 @@ And from what our data looks like, it might be Neural Networks.
 
 It is often interesting to try something else before resorting to Neural Networks, as we did, but in our case it might be our solution. 
 
-# Building the model with ``keras``
+# Building the model with keras
 
 ## Preparing the data
 
@@ -1271,13 +1271,6 @@ mdl1.fit(X_training, y_training, validation_split = 0.33, epochs = 100, batch_si
 
 
     94697/94697 [==============================] - 43s - loss: 0.3513 - mean_absolute_error: 0.4502 - val_loss: 0.3508 - val_mean_absolute_error: 0.4489
-    
-
-
-
-
-    <keras.callbacks.History at 0x22c05524160>
-
 
 
 The plot might seem unusual, with the validation loss below the training loss, but it is actually due to the dropouts we introduced: they are used for training but not for evaluation, so the validation loss can be higher (see this: https://keras.io/getting-started/faq/).
@@ -1329,7 +1322,7 @@ plt.show()
 <span class="image fit"><img src="{{ "/images/Posts_Images/Part6/part6-5.png" | absolute_url }}" alt="" /></span>
 
 
-**That is much better!** The linear relationship is much clearer. There is still some noise, but the predictions are much more concentrated around the $y = x$ axis. Again, the intercept is close to 0 and the slope to 1.
+**That is much better!** The linear relationship is much clearer. There is still some noise, but the predictions are much more concentrated around the $$y = x$$ axis. Again, the intercept is close to 0 and the slope to 1.
 
 ## Conclusion
 
@@ -1346,7 +1339,7 @@ In this part:
 
 Thats's it for this serie! I might try to do another one using song level data in the future. There are interesting features that can be used, which can be found here: https://developer.spotify.com/web-api/get-audio-features/ 
 
-### Bonus: a function to predict popularity on Spotify
+## Bonus: a function to predict popularity on Spotify
 
 
 
@@ -1373,7 +1366,7 @@ You have the project of starting a throat-singing-shoegaze band ?
 
 
 ```python
-prediction(["throat ", "shoegaze"])
+prediction(["throat-singing", "shoegaze"])
 ```
 
     The predicted Spotify popularity for this artist is 7
