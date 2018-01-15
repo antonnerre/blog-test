@@ -69,7 +69,7 @@ What comes next is very similar to what we already did before, and you will cert
 
 
 ```python
-artists = pd.read_csv("Spotify_Artist_bis.csv", encoding = "ISO-8859-1")
+artists = pd.read_csv("Spotify_Artist.csv", encoding = "ISO-8859-1")
 artists_genres = pd.DataFrame(artists.groupby("Artist")["Genre"].apply(list))
 artists_genres["Artist"] = artists_genres.index
 artists_genres.index = range(len(artists_genres))
@@ -241,7 +241,6 @@ ml_df.head()
     </tr>
   </tbody>
 </table>
-<p>5 rows × 1521 columns</p>
 </div>
 
 
@@ -460,7 +459,6 @@ ml_df.head()
     </tr>
   </tbody>
 </table>
-<p>5 rows × 1521 columns</p>
 </div>
 
 
@@ -469,7 +467,7 @@ We can save the dataset.
 
 
 ```python
-ml_df.to_csv("Deep_Learning_Spotify_bis.csv")
+ml_df.to_csv("Deep_Learning_Spotify.csv")
 ```
 
 # Section 1: Building the model with lightgbm
@@ -477,7 +475,7 @@ We are now ready to separate our data between training, evaluation and test sets
 
 
 ```python
-df = pd.read_csv("Deep_Learning_Spotify_bis.csv", index_col = 0)
+df = pd.read_csv("Deep_Learning_Spotify.csv", index_col = 0)
 df = df.sample(frac=1).reset_index(drop=True)
 ```
 
@@ -634,7 +632,6 @@ pd.DataFrame(gbm.cv_results_)
     </tr>
   </tbody>
 </table>
-<p>5 rows × 1520 columns</p>
 </div>
 
 
@@ -702,9 +699,7 @@ ax = lgb.plot_metric(evals_result, metric='rmse')
 plt.show()
 ```
 
-
-<span class="image fit"><img src="{{ "/images/Posts_Images/Part6/part6-1.png" | absolute_url }}" alt="" /></span>
-
+<img src="/images/Posts_Images/Part6/part6-1.png" alt="">
 
 It is possible to have a look at the most important features to determine the popularity of an artist. Since we used principal component analysis, this is not very informative. 
 
@@ -895,7 +890,6 @@ pca_df.head()
     </tr>
   </tbody>
 </table>
-<p>5 rows × 1520 columns</p>
 </div>
 
 
@@ -993,7 +987,7 @@ We can reload the data since we won't be using Principal Component Analysis here
 
 
 ```python
-df = pd.read_csv("Deep_Learning_Spotify_bis.csv", index_col = 0)
+df = pd.read_csv("Deep_Learning_Spotify.csv", index_col = 0)
 df = df.sample(frac = 1).reset_index(drop = True)
 
 dataset = df.values
@@ -1168,7 +1162,7 @@ Thats's it for this serie! I might try to do another one using song level data i
 
 
 ```python
-df = pd.read_csv("Deep_Learning_Spotify_bis.csv", index_col = 0)
+df = pd.read_csv("Deep_Learning_Spotify.csv", index_col = 0)
 
 def prediction(list_of_genres) :
 
