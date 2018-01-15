@@ -739,7 +739,7 @@ pca_df.head()
         vertical-align: top;
     }
 </style>
-<table border="1" class="dataframe" style="max-width:300px;">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -747,19 +747,7 @@ pca_df.head()
       <th>abstract</th>
       <th>abstract beats</th>
       <th>abstract hip hop</th>
-      <th>abstract idm</th>
-      <th>abstractro</th>
-      <th>accordeon</th>
-      <th>accordion</th>
-      <th>acid house</th>
-      <th>acid jazz</th>
       <th>...</th>
-      <th>yugoslav rock</th>
-      <th>zapstep</th>
-      <th>zeuhl</th>
-      <th>zillertal</th>
-      <th>zim</th>
-      <th>zolo</th>
       <th>zouglou</th>
       <th>zouk</th>
       <th>zouk riddim</th>
@@ -773,19 +761,7 @@ pca_df.head()
       <td>0.000469</td>
       <td>0.000884</td>
       <td>0.001151</td>
-      <td>0.000862</td>
-      <td>0.000186</td>
-      <td>0.000575</td>
-      <td>0.000914</td>
-      <td>0.000287</td>
-      <td>0.000050</td>
       <td>...</td>
-      <td>0.001245</td>
-      <td>0.002394</td>
-      <td>0.000655</td>
-      <td>0.001404</td>
-      <td>0.000527</td>
-      <td>0.007161</td>
       <td>0.001372</td>
       <td>0.001545</td>
       <td>0.001375</td>
@@ -797,19 +773,7 @@ pca_df.head()
       <td>0.000403</td>
       <td>0.000058</td>
       <td>0.000341</td>
-      <td>0.000088</td>
-      <td>0.000421</td>
-      <td>0.000116</td>
-      <td>0.000186</td>
-      <td>0.002098</td>
-      <td>0.000334</td>
       <td>...</td>
-      <td>0.000252</td>
-      <td>0.000248</td>
-      <td>0.000023</td>
-      <td>0.000285</td>
-      <td>0.000112</td>
-      <td>0.003551</td>
       <td>0.000280</td>
       <td>0.000314</td>
       <td>0.000277</td>
@@ -821,19 +785,7 @@ pca_df.head()
       <td>0.000686</td>
       <td>0.000440</td>
       <td>0.005809</td>
-      <td>0.000724</td>
-      <td>0.000409</td>
-      <td>0.000435</td>
-      <td>0.000696</td>
-      <td>0.000214</td>
-      <td>0.001207</td>
       <td>...</td>
-      <td>0.000963</td>
-      <td>0.001118</td>
-      <td>0.000807</td>
-      <td>0.001090</td>
-      <td>0.000400</td>
-      <td>0.000439</td>
       <td>0.001095</td>
       <td>0.001214</td>
       <td>0.001083</td>
@@ -845,20 +797,8 @@ pca_df.head()
       <td>0.000559</td>
       <td>0.000619</td>
       <td>0.001933</td>
-      <td>0.000264</td>
-      <td>0.000503</td>
-      <td>0.000118</td>
-      <td>0.000188</td>
-      <td>0.002079</td>
-      <td>0.001241</td>
       <td>...</td>
-      <td>0.000261</td>
-      <td>0.001542</td>
-      <td>0.000355</td>
-      <td>0.000295</td>
-      <td>0.000108</td>
-      <td>0.009686</td>
-      <td>0.000300</td>
+      <td>0.000299</td>
       <td>0.000331</td>
       <td>0.000300</td>
       <td>0.001232</td>
@@ -869,19 +809,7 @@ pca_df.head()
       <td>0.000077</td>
       <td>0.000039</td>
       <td>0.004576</td>
-      <td>0.000039</td>
-      <td>0.000063</td>
-      <td>0.000040</td>
-      <td>0.000057</td>
-      <td>0.001073</td>
-      <td>0.008057</td>
       <td>...</td>
-      <td>0.000091</td>
-      <td>0.000113</td>
-      <td>0.000242</td>
-      <td>0.000101</td>
-      <td>0.000010</td>
-      <td>0.002303</td>
       <td>0.000101</td>
       <td>0.000115</td>
       <td>0.000101</td>
@@ -889,9 +817,8 @@ pca_df.head()
     </tr>
   </tbody>
 </table>
+<p>5 rows × 1520 columns</p>
 </div>
-
-
 
 ## Predicting popularities
 Now that our model is fitted, we can use it to perform predictions on the test set.
@@ -1084,7 +1011,7 @@ mdl1.fit(X_training, y_training, validation_split = 0.33, epochs = 100, batch_si
 ```
 
 
-<span class="image fit"><img src="{{ "/images/Posts_Images/Part6/part6-4.png" | absolute_url }}" alt="" /></span>
+![component]({{ "./images/Posts_Images/Part6/part6-4.png" | absolute_url }})
 
 
     94697/94697 [==============================] - 43s - loss: 0.3513 - mean_absolute_error: 0.4502 - val_loss: 0.3508 - val_mean_absolute_error: 0.4489
