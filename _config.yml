@@ -1,18 +1,18 @@
 # Site
 title:              how much we can do with few data
-bio:                'Wannabe Data Scientist'
-description:        "Nothing else to say"
+bio:                'Junior Data Scientist'
+description:        'A project to dive into music data (and showcase some of my skills)'
 locale:             en_US
-baseurl: "/how-much-we-can-do-with-few-data" # the subpath of your site, e.g. /blog
-url: "https://antonnerre.github.io" # the base hostname & protocol for your site
+baseurl:            "/how-much-we-can-do-with-few-data"
+url:                "https://antonnerre.github.io"
 
 defaults:
 - scope:
-    path: ''
-    type: posts
+    path:           ''
+    type:           posts
   values:
-    permalink: "/blog/:title/"
-    layout: post
+    permalink:      "/blog/:title/"
+    layout:         post
     author:
 
 # Jekyll
@@ -42,8 +42,7 @@ github:             default
 linkedin:           in/antoinetonnerre
 
 # personal
-location:           Paris &amp; Bordeaux, France
-phone:              
+location:           Paris &amp; Bordeaux, France           
 email:              antoine.tonnerre@gmail.com
 
 # Gems
