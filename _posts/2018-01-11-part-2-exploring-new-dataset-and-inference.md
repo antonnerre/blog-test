@@ -933,8 +933,7 @@ else:
     Lilliefors test: cannot reject the null hypothesis of normality.
     
 
-
-<span class="image fit"><img src="{{ "/images/Posts_Images/Part2/part2-7.png" | absolute_url }}" alt="" /></span>
+![normality]({{ "./images/Posts_Images/Part2/part2-7.png" | absolute_url }})
 
 ## Checking multicolinearity
 We manually compute the Variance Inflation Factors of our independent variables since non function in any python module seems to exist to do this. The VIFs are computed as $$\frac{1}{1 - R_j^2}$$, where $$R_j^2$$ is the coefficient of determination of the linear regression of the independent variable $$j$$ against all other independent variables. The resulting VIFs show no alarming multicolinearity as they all lie below 7.
