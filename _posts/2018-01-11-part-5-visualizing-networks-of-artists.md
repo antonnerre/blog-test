@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Part 5"
-date:   2018-01-11
+date:   2018-02-01
 excerpt: "Visualizing Networks of Artists "
 image: "/images/Posts_Images/Part5/part5.jpg"
 ---

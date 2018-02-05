@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Part 3"
-date:   2018-01-11
+date:   2018-01-30
 excerpt: "Data Preparation for Networks "
 image: "/images/Posts_Images/Part3/part3_squared.jpg"
 ---

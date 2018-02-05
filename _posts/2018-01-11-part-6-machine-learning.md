@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Part 6"
-date:   2018-01-11
+date:   2018-02-02
 excerpt: "Machine Learning: Gradient Boosting and Neural Networks "
 image: "/images/Posts_Images/Part6/part6.png"
 ---

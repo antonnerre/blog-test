@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Part 1"
-date:   2018-01-11
+date:   2018-01-28
 excerpt: "Data gathering & Monte Carlo Simulations "
 image: "./images/Posts_Images/Part1/part1.jpg"
 ---

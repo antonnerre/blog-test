@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Part 4"
-date:   2018-01-11
+date:   2018-01-31
 excerpt: "Visualizing Networks of Genres "
 image: "./images/Posts_Images/Part4/part4_resized.jpg"
 ---

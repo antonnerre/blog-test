@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Part 2"
-date:   2018-01-11
+date:   2018-01-29
 excerpt: "Exploring the New Dataset & Inference "
 image: "/images/Posts_Images/Part2/part2.jpg"
 ---
