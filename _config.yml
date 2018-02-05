@@ -1,7 +1,7 @@
 # Site
-title:              how much we can do with few data
-bio:                'Junior Data Scientist'
-description:        'A project to dive into music data (and showcase some of my skills)'
+title:              How much we can do with few data
+bio:                ''
+description:        'A project to dive into music data'
 locale:             en_US
 baseurl:            "/how-much-we-can-do-with-few-data"
 url:                "https://antonnerre.github.io"
