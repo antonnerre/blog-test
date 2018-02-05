@@ -1104,8 +1104,7 @@ ax.set_ylabel("CONC'(POP)")
 sns.despine()
 ```
 
-
-<span class="image fit"><img src="{{ "/images/Posts_Images/Part2/part2-9.png" | absolute_url }}" alt="" /></span>
+![normality]({{ "./images/Posts_Images/Part2/part2-9.png" | absolute_url }})
 
 We can see that on the range of values $$POP$$ can take (i.e. from $$Popularity$$ that belongs to $$[0 , 100]$$), the gradient is always positive, though increasing then decreasing. 
 
