@@ -993,8 +993,7 @@ sns.lmplot(x = "Fitted", y = "Residuals", data = diagn_df, order = 1, size = 5, 
 plt.show()
 ```
 
-
-<span class="image fit"><img src="{{ "/images/Posts_Images/Part2/part2-8.png" | absolute_url }}" alt="" /></span>
+![homoscedasticity]({{ "./images/Posts_Images/Part2/part2-8.png" | absolute_url }})
 
 Since our model will only be used for inference and not for prediction, we are fine, as OLS estimators remain unbiased and consistent under heteroskedasticity. There is thus no need to use Weighted Least Squares or Robust Least Squares.
 
