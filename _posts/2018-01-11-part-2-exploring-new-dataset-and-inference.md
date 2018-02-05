@@ -1130,7 +1130,7 @@ In this Part, we did the following:
 
 What is better than a joyplot to visualize the musical landscape ? This is basically the same plot as the first one: each line represents the Kernel Density Estimate of the distribution of followers (log) per artists of a given genre. Notice the shift of the distributions' modes from left to right as you scroll down: instead of being colored from blue to red, genres were ordered from top to bottom by their popularity.
 
-(In case you don't know Unknown Pleasures by Joy Division yet, have a look at its album artwork <a href="https://www.allmusic.com/album/unknown-pleasures-mw0000202764">here</a> and, most importantly, have a first listen. This last plot is largely inspired by the work of user ``sbebo`` on Github and its package ``joypy``, and adapted to look a bit more like the album cover: the KDEs are not transparent, and the figure is more centered. Also, we are plotting music!)
+(In case you don't know Unknown Pleasures by Joy Division yet, have a look at its album artwork <a href="https://www.allmusic.com/album/unknown-pleasures-mw0000202764">here</a> and, most importantly, have a first listen <a href="https://open.spotify.com/album/0cbpcdI4UySacPh5RCpDfo">here</a>. This last plot is largely inspired by the work of user ``sbebo`` on Github and its package ``joypy``, and adapted to look a bit more like the album cover: the KDEs are not transparent, and the figure is more centered. Also, we are plotting music!)
 
 
 ```python
