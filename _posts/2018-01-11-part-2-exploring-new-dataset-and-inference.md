@@ -1123,7 +1123,7 @@ artist.to_csv("Spotify_Artist_bis.csv")
 In this Part, we did the following:
 * We checked our intuition that Popularity and Followers should be positively correlated, using visualization and the appropriate statistical tools;
 * We revealed three additional and interesting patterns, through feature engineering;
-* We carefully analyzed the relationship between what we called Concentration and Popularity, using statistical inference.
+* We carefully analyzed the relationship between what we labelled Concentration and Popularity, using statistical inference.
 * We verified the assumptions of our model, and adapted it accordingly.
 
 # BONUS: the Unknown Pleasures of Kernel Density Estimates
